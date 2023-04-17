@@ -1,0 +1,65 @@
+# esercizi con le stringhe
+
+1.	Inserita una stringa da tastiera crea due stringhe: una che contiene tutti a caratteri alfabetici, e l'altra che contiene il
+	resto di caratteri. Stampa le due stringhe e la relativa lunghezza.
+
+2.	Inserire due nomi da tastiera (nome1,nome2), poi un breve testo. Modificare il testo aggiungendo le maiuscole, dove non presenti, 
+	dopo il punto e sostituire tutte le occorrenze di nome1 con nome2. (occhio che se nome1 è per esempio 'anna' la sostituzione non
+	deve essere fatta nella parola 'panna')
+
+3.	Inserite 10 coppie di nomi e valori (usa le liste per memorizzarli) scrivere un programma che formatti l'uscita nel seguente modo:
+	campi NOMI e VALORI allineati al centro, elementi NOMI allineati a sinistra, elementi VALORI allineati al centro.
+
+	---------------------
+	|   NOMI   | VALORI |
+	|          |        |
+	| Anna     |   23   |
+	| Samuele  |   12   |
+	| Luca     |   40   |
+	|          |        |
+	---------------------
+
+
+# esercizi con liste
+
+1. (riadattato dai temi d'esame, si può fare senza file e usando solo le liste)
+	Si realizzi un programma Python che sia in grado di gestire un’agenda elettronica per un anno solare.
+	Sono inseriti 10 appuntamenti con il seguente formato:
+		
+	giorno;ora;descrizione dell’appuntamento
+	Si facciano le seguenti assunzioni:
+	
+	Il campo giorno è codificato da 1 a 365
+	Il campo ora è codificato su due cifre [00-23]
+	Il campo descrizione dell’appuntamento è una stringa di caratteri
+	Ci possono essere più appuntamenti per lo stesso giorno (non alla stessa ora)
+	Si realizzi un programma che supporti le seguenti opzioni:
+	
+	visualizzare, in ordine crescente di orario, tutti gli appuntamenti di una giornata
+	inserire un nuovo appuntamento (specificando giorno, ora e descrizione) se allo stesso giorno e alla stessa ora non ne è già presente uno.
+	Nel caso non sia possibile inserire l'appuntamento il programma deve stampare il messaggio "Impossibile inserire appuntamento"; 
+	altrimenti, deve stampare il messaggio "Appuntamento inserito correttamente"
+	I comandi sono inseriti da tastiera finchè non si scrive 'exit' e posso essere del tipo:
+	
+	v giorno
+	oppure
+	i giorno ora descrizione
+	
+	Esempio di input agenda:
+	
+	10;12;Pranzo con il capo
+	17;09;Esame di Informatica
+	17;17;Riunione di condominio
+	100;10;Visita dal dottore
+	75;19;Aperitivo con amici
+
+	Esempio di comandi:
+	v 17
+	i 100 10 Conferenza stampa
+	i 120 10 Conferenza stampa
+	Messaggi stampati a video dal programma:
+	giorno 17 ore 09
+	giorno 17 ore 17
+	Impossibile inserire appuntamento		
+	Appuntamento inserito correttamente
+
