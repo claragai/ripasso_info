@@ -1,0 +1,10 @@
+1.	Data una matrice N×M di interi trovare la riga e la colonna con somma più alta
+
+2.  Data una matrice N×N verificare se è simmetrica
+
+3.	es 08.2.1 del lab8
+
+4.	tema d'esame: https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/bowling
+	(senza usare dizionari, senza scrivere il file, senza ordinare la classifica)
+
+5.	tema d'esame: https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/piramidi
