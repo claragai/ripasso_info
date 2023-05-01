@@ -1,0 +1,13 @@
+** esercizi da risolvere con ciclo while **
+1.	inserita una stringa verificare che sia palindroma
+
+2.	scrivere un programma che genera un numero casuale da 1 a 100 e chiede all'utente di indovinarlo. Ogni volta l'utente digita un numero 
+	il programma dice se il numero da cercare è minore o maggiore di quello digitato. L'utente perde quando per tre volte di fila sbaglia 
+	nella stessa direzione (digita per tre volte di fila un numero minore o maggiore del numero da trovare). A fine esecuzione, il programma 
+	stampare il numero di tentativi effettuati.
+
+** esercizi con file  da fare senza dizionari **
+1.	leggere il file 'codice/prova.txt' e scrivere il file 'codice/prova_modificato.txt' in cui i campi sono invertiti e separati da un punto
+	(l'uscita deve essere uguale a 'codice/prova2.txt')
+
+2.	tema d'esame 'https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/hacking'

@@ -1,2 +1,5 @@
-Pranzo con il capo 12 10
-...
+Pranzo con il capo.12.10
+Esame di Informatica.09.17
+Consiglio di Dipartimento.17.17
+Visita dal dottore.10.100
+Aperitivo con amici.19.75
