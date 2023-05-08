@@ -1,5 +1,12 @@
 # apertura in lettura, python restituisce un errore se non trova il file
 f = open('prova.txt','r',encoding='utf-8')
+# apertura/creazione file nella cartella 'dir' (percorso relativo)
+# (il percorso deve esistere cioè la cartella 'dir' deve essere presente altrimenti ritorna errore) 
+# f3 = open('dir/prova.txt','w',encoding='utf-8')
+# f3.close()
+# apertura/creazione file nel Desktop (percorso assoluto, funziona solo nel mio computer)
+# f2 = open(r'C:\Users\acer\Desktop\prova.txt','w',encoding='utf-8')
+# f2.close()
 
 # lettura file per carattere
 print('**lettura per carattere**')
