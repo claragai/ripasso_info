@@ -1,0 +1,14 @@
+*** temi d'esame (da fare senza dizionari) ***
+1.	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/glucometer
+	(se sono usate liste, tabelle, ecc. fare un disegno o schema che rappresenta come sono organizzati i dati)
+
+2.	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/manutenzione
+	(consiglio: per confrontare/ordinare delle date basta esprimerle in stringhe col formato 'aaaammgg' e confrontarle come fossero
+	2 normali strighe)
+		*** esercizio aggiuntivo sulle funzioni ***
+			creare (e usare per risolvere l'esercizio se ritenuta utile) una funzione che traduce una stringa nel formato 'gg/mm/aaaa' 
+			in 'aaaammgg' e viceversa, la scelta della conversione è fatta aggiungendo un parametro booleano
+			Esempio prototipo: 
+				def cambio_formato(data, inverted) 
+
+3.	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/murphy
