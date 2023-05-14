@@ -1,0 +1,9 @@
+*** temi d'esame ***
+(fare uno schema delle principali strutture dati utilizzate in ogni tema d'esame)
+
+1:	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/ricette
+
+2:	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/astrologia_calciatori
+	(creare una funzione che inserita una data ritorna il segno zodiacale a cui appartiene)
+
+3:	https://github.com/polito-info-2022/Esempi-esame/tree/master/esami2020-21/indovina_chi
