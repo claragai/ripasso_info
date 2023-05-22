@@ -1,3 +1,34 @@
+*** esercizi con dizionari ***
+1:	Scrivere una funzione che dati due dizionari li unisca in uno solo. Realizzare due versioni, nella prima se i dizionari hanno la stessa
+	chiave viene mantenuta solo quella relativa al primo dizionariom, nella seconda versione mantenere entrambe le chiavi rinominandole
+	nel seguente modo: 'key_1', 'key_2'
+	esempio:
+		d1={'a': 4, 'b':5, 'c':6, 'd':7, 'e':8}, d2={'z': 40, 'c':50}
+		versione 1 -> {'a': 4, 'b':5, 'c':6, 'd':7, 'e':8, 'z':40}
+		versione 2 -> {'a': 4, 'b':5, 'c_1':6, 'd':7, 'e':8, 'z':40, 'c_2':50}
+
+2:	Data una stringa creare un dizionario che contenga come chiavi tutti i caratteri presenti nella stringa e come valori il numero di 
+	volte in cui sono presenti (es: 'casa' -> {'c':1, 'a':2, 's':1}). Scrivere poi una funzione in cui viene passata una lista di caratteri
+	e restituisce la somma di quante volte sono presenti i caratteri nella stringa. Se uno dei caratteri della lista non è presente 
+	stampare un messaggio per notificarlo.
+
+3:	Data un lista di misure in metri creare una seconda lista in cui ogni elemento è un dizionario in cui la chiave è l'unità di misura
+	(cm, pollici, iarde) e il valore è l'elemento convertito.
+	(esempio: [0.12, 0.32, 0.16, 0.22, 0.44, ...] -> [{'cm':12, 'inch':4.72, 'yard':0.13}, {'cm':32, 'inch':12.6, 'yard':0.35}, ...])
+	leggere un file in cui in ogni riga viene indicata un unità di misura tra 'cm', 'inch' e 'yard' e un tuple che rappresenta le posizioni
+	degli elementi della lista di partenza, per ogni riga del file stampare la somma degli elementi nella unità di misura selezionata
+	(esempio file: 
+		cm 0,3,2
+		yard 0,1,4,5
+		...
+	)
+	(esempio output:
+		somma in cm: 78
+		somma in yard: ...
+		...
+	)
+	
+
 *** temi d'esame ***
 (fare uno schema delle principali strutture dati utilizzate in ogni tema d'esame)
 
