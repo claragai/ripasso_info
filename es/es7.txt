@@ -28,6 +28,20 @@
 		...
 	)
 	
+4:	Costruire una struttura che rappresenti una scacchiera usando i dizionari: associare a ogni riga una stringa che 
+	rappreesenta un numero da '1' a '8' e ogni colonna una lettera da 'a' a 'h'. Ogni elemento è una lista in cui il primo elemento è il
+	colore della casella e l'eventuale secondo è il colore della pedina presente.
+	esempio: {'1': {'a': ['n'], 'b':['b'], ...}, '2': {'a': ['b'], 'b':['n'], ...}, ...}
+	Dato il file 'posizioni.txt' in cui ogni riga contiene: "l,n,p" dove 'l' rappresenta un lettera, 'n' un numero e 'p' una pedina
+	inserire nella scacchiera la pedina nella posizione corrispondente (non effettuare l'inserimento e notificarlo se la casella è bianca).
+	Dato il file 'spostamenti.txt' in cui ogni riga contiene: "li,ni lf,nf" che rappresentano le cordinate in cui una pedina deve essere 
+	spostata. Non effettuare nessuna operazione e notificare se in li,ni non è presente nessuna pedina o se in lf,nf è già presente
+	un'altra pedina. Infine creare una funzione per stampare la scacchiera e chiamarla dopo ogni operazione.
+	esempio:
+		b o b o b o b o
+		o o o o o o o o
+		n o o       ...
+		...         ...
 
 *** temi d'esame ***
 (fare uno schema delle principali strutture dati utilizzate in ogni tema d'esame)
